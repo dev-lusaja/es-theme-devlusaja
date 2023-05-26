@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<theme>
+
+	<formatVersion>7</formatVersion>
+
+	<customView name="config" inherits="basic">
+		<text name="logoText">
+			<visible>false</visible>
+		</text>
+
+		<image name="logo">
+			<visible>false</visible>
+		</image>
+
+		<!--Up arrow -->
+		<image name="Chevron Haut">
+			<pos>0.5 0.165</pos>
+		</image>
+
+		<textlist name="gamelist" ifSubset="selectorstyle:bar">
+			<pos>0.25 0.190</pos>
+		</textlist>
+
+		<!--Down arrow -->	
+		<image name="Chevron Bas">
+			<pos>0.5 0.832</pos>
+		</image>
+
+		<image name="es_player">
+			<visible>false</visible>
+		</image>
+	</customView>
+  
+</theme>   

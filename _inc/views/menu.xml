@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+ 	<formatVersion>7</formatVersion>
+
+	<view name="menu">
+		<menuText name="menutitle">
+			<fontPath>./../fonts/SairaCondensed-Bold.ttf</fontPath>
+			<fontSize>0.046</fontSize>
+			<color>${systemColorWhite}</color>
+		</menuText>
+		
+		<menuText name="menufooter">
+			<fontPath>./../fonts/SairaCondensed-Light.ttf</fontPath>
+			<fontSize>0.032</fontSize>
+			<color>${systemColorWhite}</color>
+		</menuText>
+		
+		<menuText name="menutext">
+			<fontPath>./../fonts/SairaCondensed-Regular.ttf</fontPath>
+			<fontSize>0.032</fontSize>
+			<color>969696</color>
+			<separatorColor>323232FF</separatorColor>
+			<selectorColor>2C001A</selectorColor>
+			<selectorColorEnd>2C001A</selectorColorEnd>
+			<selectedColor>FFEEFF</selectedColor>
+			<selectorOffsetY>0.01</selectorOffsetY>
+			<selectorGradientType>vertical</selectorGradientType>
+		</menuText>
+		
+		<menuTextSmall name="menutextsmall">
+			<fontPath>./../fonts/SairaCondensed-Regular.ttf</fontPath>
+			<fontSize>0.026</fontSize>
+			<color>767296</color>
+		</menuTextSmall>
+		
+		<menuGroup name="menugroup">
+			<fontPath>./../fonts/SairaCondensed-Medium.ttf</fontPath>
+			<fontSize>0.036</fontSize>
+			<color>767296</color>
+			<separatorColor>BD4747</separatorColor>    
+			<backgroundColor>70202020</backgroundColor>
+			<lineSpacing>2.5</lineSpacing>
+		</menuGroup>
+		
+		<menuBackground name="menubg">
+			<color>242424ee</color>
+			<cornerSize>32 32</cornerSize>
+			<path>./../menuicons/frame.png</path>
+		</menuBackground>
+		
+		<menuIcons name="menuicons">
+			<iconKodi>./../menuicons/Kodi.png</iconKodi>
+			<iconSystem>./../menuicons/System.png</iconSystem>
+			<iconUpdates>./../menuicons/Updates.png</iconUpdates>
+			<iconGames>./../menuicons/Games.png</iconGames>
+			<iconControllers>./../menuicons/Controllers.png</iconControllers>
+			<iconUI>./../menuicons/UI.png</iconUI>
+			<iconSound>./../menuicons/Sound.png</iconSound>
+			<iconNetwork>./../menuicons/Network.png</iconNetwork>
+			<iconScraper>./../menuicons/Scraper.png</iconScraper>
+			<iconAdvanced>./../menuicons/Advanced.png</iconAdvanced>
+			<iconQuit>./../menuicons/Quit.png</iconQuit>
+			<iconRestart>./../menuicons/Restart.png</iconRestart>
+			<iconShutdown>./../menuicons/Shutdown.png</iconShutdown>
+			<iconFastShutdown>./../menuicons/Fastshutdown.png</iconFastShutdown>
+			<iconRetroachievements>./../menuicons/Contest.png</iconRetroachievements>
+		</menuIcons>
+		
+		<menuTextEdit name="menutextedit">
+			<inactive>./../menuicons/textinput_ninepatch.png</inactive>
+			<active>./../menuicons/textinput_ninepatch_active.png</active>
+		</menuTextEdit>
+		
+		<menuButton name="menubutton">
+			<path>./../menuicons/button.png</path>
+			<filledPath>./../menuicons/button_filled.png</filledPath>
+		</menuButton>
+	</view>
+</theme>

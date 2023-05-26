@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+ 	<formatVersion>7</formatVersion>
+
+	<view name="screen">
+		<!-- Batery and Network indicator -->
+		<batteryIndicator name="batteryIndicator">
+			<color>${systemColorWhite}</color>
+		</batteryIndicator>
+
+		<text name="clock">
+			<color>${systemColorWhite}</color>
+			<fontPath>./../fonts/SairaCondensed-Light.ttf</fontPath>
+			<fontSize>0.050</fontSize>
+			<pos>0.920 0.090</pos>
+			<origin>0 0.5</origin>
+			<size>0.09 0.058</size>
+			<alignment>left</alignment>
+			<verticalAlignment>center</verticalAlignment>
+		</text>
+
+		<controllerActivity name="controllerActivity">
+			<pos>0.880 0.0165</pos>
+			<origin>0 0.5</origin>
+			<size>0.085 0.025</size>
+			<itemSpacing>0.003</itemSpacing>
+			<imagePath>./../icons/gamepad.svg</imagePath>
+			<gunPath>./../icons/gun.svg</gunPath>
+			<color>${systemColorWhite}</color>
+			<activityColor>${systemColorYellow}</activityColor>
+			<hotkeyColor>FFA0A0C0</hotkeyColor>
+		</controllerActivity>
+  	</view>
+</theme>

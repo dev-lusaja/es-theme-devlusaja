@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<theme>
+
+	<formatVersion>7</formatVersion>
+ 
+	<view name="grid">
+		<image name="background">
+			<path>./../../backgrounds/169/bgretrotiles.jpg</path>
+			<zIndex>2</zIndex>
+		</image>
+
+		<image name="logo">
+			<visible>false</visible>
+		</image>
+
+		<text name="logoText">
+			<visible>false</visible>
+		</text>
+
+		<video name="md_video">
+			<visible>false</visible>
+		</video>
+
+		<image name="md_thumbnail,md_marquee">
+			<visible>false</visible>
+		</image>
+
+		<image name="Chevron Haut">
+			<color>${systemColorYellow}</color>
+			<pos>0.705 0.2</pos>
+		</image>
+
+		<image name="Chevron Bas">
+		<color>${systemColorYellow}</color>
+		<pos>0.705 0.8</pos>
+		</image>
+
+		<gridtile name="default">
+			<backgroundColor>FFFFFF00</backgroundColor>
+			<backgroundCornerSize>9 9</backgroundCornerSize>
+			<selectionMode>image</selectionMode>
+			<padding>6 6</padding>
+			<imageColor>999999FF</imageColor>
+		</gridtile>
+
+		<image name="gridtile.favorite">
+			<linearSmooth>true</linearSmooth>
+			<path>./../../icons/star_filled.svg</path>
+			<pos>0.93 0.07</pos>
+			<maxSize>0.15 0.15</maxSize>
+			<origin>0.5 0.5</origin>
+			<horizontalAlignment>right</horizontalAlignment>
+			<color>FFFF00ff</color>
+		</image>
+
+		<!--Name of game in right-->
+		<text name="md_name">
+			<color>${systemColorWhite}</color>
+			<pos>0.8427 0.292</pos>
+			<size>0.296 0.10</size>
+			<alignment>center</alignment>
+			<fontPath>./../../fonts/Saira_SemiCondensed-Bold.ttf</fontPath>
+			<fontSize>0.032</fontSize>
+			<origin>0.5 0.5</origin>
+			<glowSize>3</glowSize>
+			<glowColor>${systemColorBlack}</glowColor>
+			<forceUppercase>1</forceUppercase>
+			<storyboard event="activate">
+				<animation property="opacity" from="0" to="1" duration="1200" mode="Linear"/>
+			</storyboard>
+			<storyboard event="deactivate">
+				<animation property="opacity" from="0" to="0" duration="" mode="Linear"/>
+			</storyboard>
+			<zIndex>41</zIndex>	  
+		</text>
+
+		<!--Right game image-->
+		<image name="md_thumbnail">
+			<visible>true</visible>
+			<pos>0.8427 0.350</pos>
+			<origin>0.5 0</origin>
+			<maxSize>0.26 0.30</maxSize>
+			<reflexion>0</reflexion>
+			<zIndex>17</zIndex>
+			<storyboard event="activate">
+				<animation property="offsetX" from="0.3" to="0" duration="850" mode="EaseOutQuint"/>
+				<animation property="opacity" from="1" to="1" duration="" mode="Linear"/>
+			</storyboard>
+			<storyboard event="deactivate">
+				<animation property="opacity" from="0" to="0" duration="" mode="Linear"/>
+			</storyboard>
+		</image>
+
+		<!--Right floor on game image-->
+		<image name="bg2" extra="static">
+			<tile>false</tile>
+			<pos>0.8427 0.397</pos>
+			<maxSize>0.5 0.5</maxSize>
+			<origin>0.5 0</origin>
+			<path>./../../backgrounds/169/bgh2.png</path>
+			<zIndex>16</zIndex>
+			<storyboard>
+				<animation property="color" from="FFFFFF" to="0088BB" begin="" duration="4500" mode="Linear" autoReverse="true" repeat="forever"/>
+				<animation property="opacity" from="1" to="0.5" begin="" duration="6000" mode="Linear" autoReverse="true" repeat="forever"/>
+			</storyboard>	  
+		</image>
+
+		<!-- Game release date-->
+		<datetime name="md_releasedate">
+			<pos>0.765 0.730</pos>
+			<size>0.05 0.05</size>
+			<origin>0.5 0.5</origin>
+			<zIndex>42</zIndex>
+		</datetime>
+
+		<text name="md_developer">
+			<visible>false</visible>
+		</text>
+
+		<!--Game stars -->
+		<rating name="md_rating">
+			<pos>0.755 0.770</pos>
+			<size>0.03 0.03</size>
+			<origin>0.5 0.5</origin>
+			<color>${systemColorYellow}</color>
+			<unfilledColor>${systemColorWhite}</unfilledColor>
+			<zIndex>41</zIndex>
+			<storyboard event="activate">
+				<animation property="offsetX" from="0.3" to="0" duration="850" mode="EaseOutQuint"/>
+				<animation property="opacity" from="1" to="1" duration="" mode="Linear"/>
+			</storyboard>
+			<storyboard event="deactivate">
+				<animation property="opacity" from="0" to="0" duration="" mode="Linear"/>
+			</storyboard>
+		</rating>
+
+		<!-- Game description -->
+		<text name="md_description">
+			<visible>true</visible>
+			<pos>0.840 0.840</pos>
+			<size>0.20 0.100</size>
+			<storyboard event="activate">
+				<animation property="offsetX" from="0.3" to="0" duration="850" mode="EaseOutQuint"/>
+				<animation property="opacity" from="1" to="1" duration="" mode="Linear"/>
+			</storyboard>
+			<storyboard event="deactivate">
+				<animation property="opacity" from="0" to="0" duration="" mode="Linear"/>
+			</storyboard>
+		</text>
+
+		<imagegrid name="gamegrid">
+			<padding>0 0.08 0 0</padding>
+			<pos>0 0.01</pos>
+			<size>0.69 0.91</size>
+			<scrollDirection>vertical</scrollDirection>
+			<autoLayout>4 3</autoLayout>
+			<autoLayoutSelectedZoom>1</autoLayoutSelectedZoom>
+			<imageSource>thumbnail</imageSource>
+			<margin>0 0.03</margin>
+			<showVideoAtDelay>100</showVideoAtDelay>
+			<effect>none</effect>
+			<centerSelection>false</centerSelection>
+			<scrollLoop>true</scrollLoop>
+			<zIndex>41</zIndex>
+		</imagegrid>
+
+		<gridtile name="selected">
+			<padding>6 6</padding>
+			<backgroundCenterColor>${systemColorWhite}</backgroundCenterColor>
+			<backgroundEdgeColor>${systemColorWhite}</backgroundEdgeColor>
+			<imageColor>FFFFFFFF</imageColor>
+		</gridtile>
+			
+		<ninepatch name="gridtile.background:selected">
+			<animateColor>${systemColorGray}</animateColor>
+			<animateColorTime>800</animateColorTime>
+		</ninepatch>
+
+		<!-- Marquee on game top -->
+		<image name="gridtile.marquee">
+			<visible>false</visible>
+		</image>
+
+		<image name="gridtile.marquee:selected">
+      		<visible>false</visible>
+    	</image>
+
+		<!-- Game for kids icon -->
+		<image name="md_kidgame,md_notkidgame,ghostkidgame">
+			<visible>false</visible>
+    	</image>
+
+		<!-- Hidden game icon-->
+		<image name="md_hidden,ghosthidden">
+      		<visible>false</visible>
+   	 	</image>
+
+		<!-- Region flag icon -->
+		<image name="md_flag">
+			<visible>false</visible>
+    	</image>
+
+		<image name="md_favorite,ghostfavorite">
+			<visible>false</visible>
+		</image>
+
+		<image name="md_manual,md_nomanual,ghostmanual">
+			<visible>false</visible>
+		</image>
+
+		<!-- retroarchivements cup game-->
+		<image name="md_cheevos,md_notcheevos,ghostcheevos">
+			<visible>false</visible>
+		</image>
+			
+		<image name="md_savestate,md_nosavestate,ghostsavestate">
+			<visible>false</visible>
+		</image>
+
+		<text name="gridtile, gridtile:selected">
+			<visible>false</visible>
+		</text>
+
+		<image name="es_player">
+			<pos>0.950 0.760</pos>
+			<size>0.007 0.025</size>
+			<alignment>left</alignment>
+			<color>${systemColorWhite}</color>
+			<storyboard event="activate">
+				<animation property="offsetX" from="0.3" to="0" duration="850" mode="EaseOutQuint"/>
+				<animation property="opacity" from="1" to="1" duration="" mode="Linear"/>
+			</storyboard>
+			<storyboard event="deactivate">
+				<animation property="opacity" from="0" to="0" duration="" mode="Linear"/>
+			</storyboard>
+			<zIndex>41</zIndex>
+		</image>
+
+		<!-- Number of players -->
+		<text name="md_players">
+			<pos>0.960 0.750</pos>
+			<alignment>left</alignment>
+			<color>${systemColorWhite}</color>
+			<size>0.037 0.045</size>
+			<fontPath>./../../fonts/SairaCondensed-Medium.ttf</fontPath>
+			<fontSize>0.028</fontSize>
+			<storyboard event="activate">
+				<animation property="offsetX" from="0.3" to="0" duration="850" mode="EaseOutQuint"/>
+				<animation property="opacity" from="1" to="1" duration="" mode="Linear"/>
+			</storyboard>
+			<storyboard event="deactivate">
+				<animation property="opacity" from="0" to="0" duration="" mode="Linear"/>
+			</storyboard>
+		</text>
+
+		<!-- How many times was a game played -->
+		<text name="md_playcount">
+			<visible>false</visible>
+		</text>
+	</view>
+  
+</theme>   

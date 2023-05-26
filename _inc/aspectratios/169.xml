@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<theme>
+
+	<formatVersion>7</formatVersion>
+
+  	<!-- Subset options for System View -->
+	<subset name="systemview" displayName="${SystemViewStyle}">
+		<include name="horizontal">./169H.xml</include>
+	</subset>
+
+	<include>./../views/basic/basic169.xml</include>
+	<include>./../views/config/config169.xml</include>
+	<include>./../views/grid/grid169.xml</include>
+ 
+	<!-- HIDING HORIZONTAL ARROWS --> 
+	<customView name="config,basic,grid">  
+		<image name="Chevron gauche, Chevron droite">
+			<visible>false</visible>
+		</image>
+	</customView>
+
+	<!-- HIDING Emulators title --> 
+	<customView name="config,basid,grid">  
+		<text name="consoleTitle">
+			<visible>false</visible>
+		</text>
+	</customView>
+  
+</theme>   

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+ 	<formatVersion>7</formatVersion>
+
+  	<view name="system">
+		<sound name="bgsound">
+			<path>./../music/ArcadePlanetBGMusic.mp3</path>
+		</sound>
+
+		<!-- Help buttons -->
+		<helpsystem name="help">
+			<pos>0.01 0.942</pos>
+			<size>1 0.01</size>
+			<origin>0 0.5</origin>
+			<fontPath>./../fonts/Saira_ExtraCondensed-Regular.ttf</fontPath>
+			<fontSize>0.032</fontSize>
+			<fontSize tinyScreen="true">0.036</fontSize>
+			<textColor>${systemColorWhite}</textColor>
+			<iconColor>${systemColorWhite}</iconColor>
+		</helpsystem>
+
+		<carousel name="systemcarousel">
+			<color>00000000</color>
+			<colorEnd>00000000</colorEnd>
+			<systemInfoDelay>0</systemInfoDelay>
+		</carousel>	
+  	</view>
+
+</theme>

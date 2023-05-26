@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+
+  <formatVersion>7</formatVersion>
+	<variables>
+		<artworkregion>Logos and Artwork Region</artworkregion>
+		<SystemViewStyle>System View Style</SystemViewStyle>
+		<SystemLogoCountH>System View Horizontal Logo Count</SystemLogoCountH>
+		<HorizontalSimplified>Horizontal Simplified</HorizontalSimplified>
+		<SystemLogoCountV>System View Vertical Logo Count</SystemLogoCountV>
+		<LogoColor>Active Logo Color</LogoColor>
+		<logostyle>Logo Style</logostyle>
+		<SelectorColor>Selector Color</SelectorColor>
+		<selectorstyle>Selector Style</selectorstyle>
+		<bar>Bar</bar>
+		<TextListColor>Text Color in Gamelists</TextListColor>
+		<animatedgamelistopenings>Animated Gamelist Openings</animatedgamelistopenings>
+		<RandomArt>Random Artwork in System View</RandomArt>
+		<RandomArtAnimationStyle>Random Art Animation Style</RandomArtAnimationStyle>
+		<ScrollDirection>Scroll Direction in Grids</ScrollDirection>
+		<easeinandout>ease in and out</easeinandout>
+		<crossover>crossover</crossover>
+		<boxarts>box arts</boxarts>
+		<yes>yes</yes>
+		<no>no</no>
+		<center>center</center>
+		<left>left</left>
+		<color>Color</color>
+		<none>none</none>
+		<red>red</red>
+		<blue>blue</blue>
+		<purple>purple</purple>
+		<green>green</green>
+		<grey>grey</grey>
+		<yellow>yellow</yellow>
+		<white>white</white>
+		<black>black</black>
+		<theme.aspect-ratio>aspect ratio</theme.aspect-ratio>
+		<minilogosright>Mini Logos on right</minilogosright>
+		<boxcarousel>Box Carousel</boxcarousel>
+		<doubleboxcarousel>Double Box Carousel</doubleboxcarousel>
+		<retrotiles>Retro Tiles</retrotiles>
+		<gamelistalignment>Gamelist Text Alignment</gamelistalignment>
+		<systemColorWhite>FFFFFF</systemColorWhite>
+		<systemColorYellow>E5CF00</systemColorYellow>
+		<systemColorPurple>2C001A</systemColorPurple>
+		<systemColorGray>A7A7A7</systemColorGray>
+		<systemColorBlack>000000</systemColorBlack>
+		<systemColorBlue>0088BB</systemColorBlue>
+	</variables> 
+</theme>   

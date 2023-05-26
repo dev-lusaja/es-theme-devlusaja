@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+ 	<formatVersion>7</formatVersion>
+	<!-- Subset options for Regional Artwork and Logos -->
+	<subset name="artworkregion" displayName="${artworkregion}">
+		<include name="EU"/>
+		<include name="US"/>
+	</subset>
+
+	<!-- Subset options for Animation at gamelist opening -->
+	<subset name="animatedgamelistopenings" displayName="${animatedgamelistopenings}">
+		<include name="no" displayName="${no}"/>
+		<include name="yes" displayName="${yes}"/>
+	</subset>
+	
+	<!-- Subset options for Neo Geo Artwork Style -->
+	<subset name="neogeostyle" displayName="Neo-Geo Style">
+		<include name="aes" displayName="AES (Console)"/>
+		<include name="mvs" displayName="MVS (Arcade)"/>
+	</subset>
+
+	<!-- Subset options for Text Alignment in Game Lists -->
+	<subset name="gamelistalignment" displayName="${gamelistalignment}" appliesTo="detailed,video">
+		<include name="center" displayName="${center}"/>
+		<include name="left" displayName="${left}"/>
+	</subset>
+	
+	<!-- Subset options for Selector Style -->
+	<subset name="selectorstyle" displayName="${selectorstyle}" appliesTo="basic,detailed,video">
+		<include name="bar" displayName="${bar}"/>
+		<include name="none" displayName="${none}"/>
+	</subset>
+
+	<!-- Subset options for Selector Bar Color -->
+	<subset name="selectorcolor" displayName="${SelectorColor}" appliesTo="basic,detailed,video">
+		<include name="blue" displayName="${blue}"/>
+		<include name="red" displayName="${red}"/>
+		<include name="yellow" displayName="${yellow}"/>
+		<include name="purple" displayName="${purple}"/>
+		<include name="black" displayName="${black}"/>
+		<include name="grey" displayName="${grey}"/>
+	</subset>
+	
+	<!-- Subset options for Selected Text -->
+	<subset name="textlistcolor" displayName="${TextListColor}" appliesTo="basic,detailed,video">
+		<include name="yellow" displayName="${yellow}"/>
+		<include name="white" displayName="${white}"/>
+		<include name="blue" displayName="${blue}"/>
+		<include name="red" displayName="${red}"/>
+		<include name="purple" displayName="${purple}"/>
+	</subset>
+</theme>
