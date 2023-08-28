@@ -9,15 +9,11 @@
 <theme>
  	<formatVersion>7</formatVersion>
   
-	<include>./_inc/variables.xml</include>
-	<include>./_inc/subsets.xml</include>
+	<include>./systems/$system/theme.xml</include>
+  	<include>./_inc/variables.xml</include>
+	<include>./_inc/options.xml</include>
 	<include>./_inc/views/menu.xml</include>
 	<include>./_inc/views/screen.xml</include>
 	<include>./_inc/views/system.xml</include>
 	<include>./_inc/views/common.xml</include>
-
-	<!-- Subset for Aspect Ratio-->
-	<subset name="aspect-ratio" displayName="${theme.aspect-ratio}">
-		<include name="16-9" displayName="16:9 widescreen">./_inc/aspectratios/169.xml</include>
-	</subset>
 </theme>

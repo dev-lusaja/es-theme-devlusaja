@@ -22,7 +22,7 @@
 			<visible>false</visible>
 		</video>
 
-		<image name="md_thumbnail,md_marquee">
+		<image name="md_marquee">
 			<visible>false</visible>
 		</image>
 
@@ -78,11 +78,11 @@
 		<!--Right game image-->
 		<image name="md_thumbnail">
 			<visible>true</visible>
-			<pos>0.8427 0.350</pos>
+			<pos>0.8427 0.490</pos>
 			<origin>0.5 0</origin>
-			<maxSize>0.26 0.30</maxSize>
+			<maxSize>0.15 0.30</maxSize>
 			<reflexion>0</reflexion>
-			<zIndex>17</zIndex>
+			<zIndex>100</zIndex>
 			<storyboard event="activate">
 				<animation property="offsetX" from="0.3" to="0" duration="850" mode="EaseOutQuint"/>
 				<animation property="opacity" from="1" to="1" duration="" mode="Linear"/>

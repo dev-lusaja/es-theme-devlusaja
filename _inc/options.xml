@@ -1,6 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <theme>
  	<formatVersion>7</formatVersion>
+
+	<!-- Subset for Aspect Ratio-->
+	<subset name="aspect-ratio" displayName="${theme.aspect-ratio}">
+		<include name="16-9" displayName="16:9 widescreen">./aspectratios/169.xml</include>
+	</subset>
+
 	<!-- Subset options for Regional Artwork and Logos -->
 	<subset name="artworkregion" displayName="${artworkregion}">
 		<include name="EU"/>

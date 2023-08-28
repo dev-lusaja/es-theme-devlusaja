@@ -42,19 +42,6 @@
 			<zIndex>1</zIndex>	  
 		</image>
 
-		<image name="bg2" extra="static">
-			<tile>false</tile>
-			<pos>0 0.0259259259</pos>
-			<size>1 1</size>
-			<origin>0 0</origin>
-			<path>./../backgrounds/169/bgh2.png</path>
-			<zIndex>1</zIndex>
-			<storyboard>
-				<animation property="color" from="FFFFFF" to="0088BB" begin="" duration="4500" mode="Linear" autoReverse="true" repeat="forever"/>
-				<animation property="opacity" from="1" to="0.5" begin="" duration="6000" mode="Linear" autoReverse="true" repeat="forever"/>
-			</storyboard>	  
-		</image>
-
 		<image name="bg3" extra="static">
 			<opacity>0</opacity>
 			<tile>false</tile>
