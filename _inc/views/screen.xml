@@ -6,23 +6,26 @@
 		<!-- Batery and Network indicator -->
 		<batteryIndicator name="batteryIndicator">
 			<color>${systemColorWhite}</color>
+			<pos>0.800 0.040</pos>
+			<origin>0 0</origin>
+			<size>0.09 0.048</size>
 		</batteryIndicator>
 
 		<text name="clock">
 			<color>${systemColorWhite}</color>
 			<fontPath>./../fonts/SairaCondensed-Light.ttf</fontPath>
-			<fontSize>0.050</fontSize>
-			<pos>0.920 0.090</pos>
-			<origin>0 0.5</origin>
+			<fontSize>0.045</fontSize>
+			<pos>0.900 0.035</pos>
+			<origin>0 0</origin>
 			<size>0.09 0.058</size>
 			<alignment>left</alignment>
 			<verticalAlignment>center</verticalAlignment>
 		</text>
 
 		<controllerActivity name="controllerActivity">
-			<pos>0.880 0.0165</pos>
+			<pos>0.04 0.925</pos>
 			<origin>0 0.5</origin>
-			<size>0.085 0.025</size>
+			<size>0.035 0.035</size>
 			<itemSpacing>0.003</itemSpacing>
 			<imagePath>./../icons/gamepad.svg</imagePath>
 			<gunPath>./../icons/gun.svg</gunPath>

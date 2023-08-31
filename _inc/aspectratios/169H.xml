@@ -10,6 +10,29 @@
 	</subset>
    	
 	<view name="system">
+
+		<text name="UserName" extra="true">
+			<pos>0.075 0.035</pos>
+			<color>FFFFFF</color>
+			<alignment>left</alignment>
+			<origin>0 0</origin>
+			<fontPath>./../fonts/Bank Gothic Medium.otf</fontPath>
+			<fontSize>0.028</fontSize>
+			<text>${userName}</text>	
+			<zIndex>37</zIndex>	
+		</text>
+		
+		<text name="UserMessage" extra="true">
+			<pos>0.090 0.067</pos>
+			<color>FFFFFF</color>
+			<alignment>left</alignment>
+			<origin>0 0</origin>
+			<fontPath>./../fonts/Bank Gothic Medium.otf</fontPath>
+			<fontSize>0.015</fontSize>
+			<text>${userMessage}</text>	
+			<zIndex>37</zIndex>	
+		</text>
+
 		<image name="logo">
 			<color>${systemColorWhite}</color>
 			<saturation>0.75</saturation>
@@ -22,7 +45,7 @@
 		<carousel name="systemcarousel">
 			<defaultTransition>instant</defaultTransition>
 			<size>1 0.592592592</size>
-			<pos>0.5 0.7659259259</pos>
+			<pos>0.5 0.5</pos>
 			<origin>0.5 0.5</origin>
 			<maxLogoCount>5</maxLogoCount>
 			<maxLogoCount ifSubset="systemviewlogocountH:7">7</maxLogoCount>
@@ -45,9 +68,9 @@
 		<image name="bg3" extra="static">
 			<opacity>0</opacity>
 			<tile>false</tile>
-			<pos>0 0.0259259259</pos>
+			<pos>0.5 0.5</pos>
+			<origin>0.5 0.5</origin>
 			<size>1 1</size>
-			<origin>0 0</origin>
 			<path>./../backgrounds/169/bgh3.png</path>
 			<zIndex>38</zIndex>
 			<storyboard>
@@ -66,6 +89,7 @@
 			<storyboard>
 				<animation property="scale" from="0" to="1" begin="620" duration="375" mode="EaseOut"/>
 			</storyboard>
+			<visible>false</visible>
 		</image>
 
 		<image name="Sprites2" extra="static">
@@ -79,6 +103,7 @@
 			<storyboard>
 				<animation property="scale" from="0" to="1" begin="1350" duration="335" mode="EaseOut"/>
 			</storyboard>
+			<visible>false</visible>
 		</image>
 
 		<image name="Sprites3" extra="static">
@@ -92,6 +117,7 @@
 			<storyboard>
 						<animation property="scale" from="0" to="1" begin="1605" duration="335" mode="EaseOut"/>
 			</storyboard>
+			<visible>false</visible>
 		</image>
 
 		<image name="Color Logos" extra="static">
@@ -113,6 +139,7 @@
 				<animation property="scale" from="1.5" to="1" begin="620" duration="375" mode="EaseOut"/>
 				<animation property="y" from="0.345" to="0.085" begin="620" duration="375" mode="EaseOut"/>
 			</storyboard>
+			<visible>false</visible>
 		</image>
 
 		<image name="VanishingColorLogos" extra="static">
@@ -133,11 +160,12 @@
 				<animation property="scale" from="1.05" to="1.4" begin="995" duration="4000" mode="EaseOut"/>
 				<animation property="color" from="FFAAAA" to="FF7777" begin="975" duration="4000" mode="EaseOut"/>
 			</storyboard>
+			<visible>false</visible>
 		</image>
 
 		<image name="Controller" extra="static">
 			<opacity>0</opacity>
-			<pos>0.5 0.7175925259</pos>
+			<pos>0.5 0.452</pos>
 			<origin>0.5 0.5</origin>
 			<size>0.1375 0</size>
 			<path>./../controllers/${system.theme}.png</path>
@@ -176,7 +204,7 @@
 		</image>
 
 		<image name="Yellow Arrow" extra="static">
-			<pos>0.5 0.5859259259</pos>
+			<pos>0.5 0.3</pos>
 			<origin>0.5 0.5</origin>
 			<size>0.025 0</size>
 			<path>./../assets/YellowArrowD.png</path>
@@ -203,6 +231,7 @@
 			<glowSize>1</glowSize>
 			<reflexion>0.0 0.0</reflexion>
 			<zIndex>40</zIndex>
+			<visible>false</visible>
 		</text>
 
 		<!-- Number of games in system -->
@@ -210,15 +239,16 @@
 			<fontPath>./../fonts/Bank Gothic Medium.otf</fontPath>
 			<fontSize>0.028</fontSize>
 			<forceUppercase>0</forceUppercase>
-			<origin>1 0.5</origin>
+			<origin>0.5 0.5</origin>
 			<alignment>left</alignment>
-			<pos>0.224 0.06</pos>
+			<pos>0.5 0.5</pos>
 			<size>0.2 0.026</size>
 			<backgroundColor>5522FF00</backgroundColor>
 			<color>${systemColorWhite}</color>
 			<glowColor>${systemColorBlack}</glowColor>
 			<glowSize>1</glowSize>
 			<reflexion>0.0 0.0</reflexion>
+			<visible>false</visible>
 		</text>
 
 		<image name="Chevron Haut, Chevron Bas">

@@ -9,7 +9,7 @@
 
 		<!-- Help buttons -->
 		<helpsystem name="help">
-			<pos>0.01 0.942</pos>
+			<pos>0.445 0.942</pos>
 			<size>1 0.01</size>
 			<origin>0 0.5</origin>
 			<fontPath>./../fonts/Saira_ExtraCondensed-Regular.ttf</fontPath>
