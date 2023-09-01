@@ -42,6 +42,7 @@
 		<retrotiles>Retro Tiles</retrotiles>
 		<gamelistalignment>Gamelist Text Alignment</gamelistalignment>
 		<systemColorWhite>FFFFFF</systemColorWhite>
+		<systemColorGrayGameTitle>424242</systemColorGrayGameTitle>
 		<systemColorYellow>E5CF00</systemColorYellow>
 		<systemColorPurple>2C001A</systemColorPurple>
 		<systemColorGray>A7A7A7</systemColorGray>

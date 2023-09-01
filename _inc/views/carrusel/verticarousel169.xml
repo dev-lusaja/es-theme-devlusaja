@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<theme>
+
+	<formatVersion>7</formatVersion>
+
+    <view name="gamecarousel">
+    
+		<image name="background">
+			<path>./../../backgrounds/169/bgretrotiles.png</path>
+			<zIndex>2</zIndex>
+		</image>
+
+        <video name="md_video">
+            <maxSize>0.22 0.228</maxSize>
+            <pos>0.068 0.25</pos>
+            <origin>0 0</origin>
+            <zIndex>100</zIndex>
+        </video>
+        
+        <image name="Chevron Bas">
+        <opacity>0.7</opacity>
+        <pos>0.51 0.7</pos>
+        </image>	
+        
+        <image name="Chevron Haut">
+            <opacity>0.7</opacity>
+            <pos>0.51 0.24</pos>
+        </image>
+        
+        <gamecarousel name="gamecarousel">
+            <type>horizontal</type>
+            <logoAlignment>left</logoAlignment>
+            <logoRotationOrigin>3.6 0.5</logoRotationOrigin>
+            <logoRotation>1</logoRotation>
+            <origin>0 0</origin>
+            <pos>-0.595 -0.01</pos>
+            <size>1.5 0.75</size>
+            <logoScale>1.5</logoScale>
+            <logoSize>0.15 0.15</logoSize>
+			<logoSize if="{system.theme} == 'switch' || {system.theme} == 'wii' || {system.theme} == 'wiiu' || {system.theme} == 'gc' || {system.theme} == 'ps2' || {system.theme} == 'ps3' || {system.theme} == 'psp' || {system.theme} == 'xbox' || {system.theme} == 'xbox360'">0.23 0.23</logoSize>
+            <maxLogoCount>10</maxLogoCount>
+            <imageSource>thumbnail</imageSource>
+            <minLogoOpacity>0.8</minLogoOpacity>
+            <zIndex>10</zIndex>
+            <scrollSound>./sounds/scroll2.wav</scrollSound>
+        </gamecarousel>    
+        
+        <text name="gamecarouselLogoText">
+            <fontPath>./fonts/SairaCondensed-SemiBold.ttf</fontPath>
+            <color>000000</color>
+            <fontSize>0.042</fontSize>
+            <glowColor>000000FF</glowColor>
+            <glowSize>2</glowSize>
+            <lineSpacing>1.0</lineSpacing>
+            <visible>false</visible>
+        </text>
+        
+
+        <!-- Game title -->
+        <text name="md_name">
+            <color>${systemColorWhite}</color>
+            <pos>0.25 0.57</pos>
+            <fontPath>./../../fonts/Saira_SemiCondensed-Bold.ttf</fontPath>  
+            <lineSpacing>1</lineSpacing>
+            <alignment>center</alignment>
+            <fontSize>0.057</fontSize>
+			<size>0.7 0.057</size>
+            <origin>0 0</origin>
+            <forceUppercase>1</forceUppercase>
+			<glowColor>00000080</glowColor>
+			<glowSize>2</glowSize>
+			<lineSpacing>1.15</lineSpacing>
+			<glowOffset>1</glowOffset>
+            <alignment>left</alignment>
+            <zIndex>41</zIndex>
+        </text>
+            
+        <datetime name="md_releasedate">
+            <alignment>right</alignment>
+            <pos>0.25 0.62</pos>
+            <origin>0 0</origin>
+            <fontSize>0.040</fontSize>
+			<fontPath>./../../fonts/Saira_SemiCondensed-Bold.ttf</fontPath>
+			<color>${systemColorWhite}</color>
+            <alignment>left</alignment>
+        </datetime>
+        
+        <rating name="md_rating">
+            <pos>0.444 0.703703</pos>
+            <size>0.08 0.025</size>
+            <origin>0.5 0.5</origin>
+            <color>E0A020</color>
+            <unfilledColor>808080</unfilledColor>
+            <zIndex>41</zIndex>	  
+        </rating>	
+        
+        <image name="md_thumbnail">
+			<visible>false</visible>
+		</image>
+
+		<image name="es_player">
+			<pos>0.08 0.53</pos>
+            <origin>0 0</origin>
+			<size>0.007 0.025</size>
+			<alignment>left</alignment>
+			<color>${systemColorWhite}</color>
+			<zIndex>41</zIndex>
+		</image>
+
+		<!-- Number of players -->
+		<text name="md_players">
+			<pos>0.09 0.522</pos>
+            <origin>0 0</origin>
+			<alignment>left</alignment>
+			<color>${systemColorWhite}</color>
+			<size>0.045 0.045</size>
+			<fontPath>./../../fonts/SairaCondensed-Medium.ttf</fontPath>
+			<fontSize>0.028</fontSize>
+		</text>
+
+		<!--Game stars -->
+		<rating name="md_rating">
+			<pos>0.15 0.53</pos>
+			<size>0.03 0.03</size>
+			<origin>0 0</origin>
+			<color>${systemColorYellow}</color>
+			<unfilledColor>${systemColorWhite}</unfilledColor>
+			<zIndex>41</zIndex>
+		</rating>
+
+        <text name="md_description">
+			<pos>0.08 0.57</pos>
+            <origin>0 0</origin>
+			<fontPath>./../../fonts/SairaCondensed-Medium.ttf</fontPath>
+			<size>0.155 0.100</size>
+			<glowSize>0</glowSize>
+			<lineSpacing>1</lineSpacing>
+			<glowOffset>0</glowOffset>
+        </text>
+        
+		<!-- Help buttons -->
+		<helpsystem name="help">
+			<pos>0.2 0.955</pos>
+			<origin>0 0</origin>
+			<fontPath>./../fonts/Saira_ExtraCondensed-Regular.ttf</fontPath>
+			<fontSize>0.032</fontSize>
+		</helpsystem>
+
+        <text name="md_genre">
+            <visible>false</visible>
+        </text>
+
+        <!-- HIDDENS -->
+        <image name="bigtv">
+            <visible>false</visible>
+        </image>
+
+        <image name="logo">
+			<visible>false</visible>
+		</image>
+
+        <!-- Console logo text -->
+		<text name="logoText">
+			<visible>false</visible>
+		</text>
+
+		<video name="md_video">
+			<visible>false</visible>
+		</video>
+
+		<image name="md_marquee">
+			<visible>false</visible>
+		</image>
+
+        <!-- Marquee on game top -->
+		<image name="gridtile.marquee">
+			<visible>false</visible>
+		</image>
+
+		<image name="gridtile.marquee:selected">
+      		<visible>false</visible>
+    	</image>
+
+		<!-- Game for kids icon -->
+		<image name="md_kidgame,md_notkidgame,ghostkidgame">
+			<visible>false</visible>
+    	</image>
+
+		<!-- Hidden game icon-->
+		<image name="md_hidden,ghosthidden">
+      		<visible>false</visible>
+   	 	</image>
+
+		<!-- Region flag icon -->
+		<image name="md_flag">
+			<visible>false</visible>
+    	</image>
+
+		<image name="md_favorite,ghostfavorite">
+			<visible>false</visible>
+		</image>
+
+		<image name="md_manual,md_nomanual,ghostmanual">
+			<visible>false</visible>
+		</image>
+
+		<!-- retroarchivements cup game-->
+		<image name="md_cheevos,md_notcheevos,ghostcheevos">
+			<visible>false</visible>
+		</image>
+			
+		<image name="md_savestate,md_nosavestate,ghostsavestate">
+			<visible>false</visible>
+		</image>
+
+		<text name="gridtile, gridtile:selected">
+			<visible>false</visible>
+		</text>
+
+        <!-- How many times was a game played -->
+		<text name="md_playcount">
+			<visible>false</visible>
+		</text>
+
+        <text name="consoleTitle">
+			<visible>false</visible>
+		</text>
+
+        <image name="Chevron gauche, Chevron droite">
+			<visible>false</visible>
+		</image>
+
+        <text name="md_developer">
+			<visible>false</visible>
+		</text>
+
+        <image name="Controller">
+            <visible>false</visible>
+        </image>
+
+		<controllerActivity name="controllerActivity">
+            <visible>false</visible>
+      </controllerActivity>
+
+    </view>
+
+</theme>

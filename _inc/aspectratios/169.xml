@@ -8,11 +8,12 @@
 	<subset name="systemview" displayName="${SystemViewStyle}">
 		<include name="horizontal">./169H.xml</include>
 	</subset>
-
+	
 	<include>./../views/basic/basic169.xml</include>
 	<include>./../views/config/config169.xml</include>
 	<include>./../views/grid/grid169.xml</include>
- 
+	<include>./../views/carrusel/verticarousel169.xml</include>
+
 	<!-- HIDING HORIZONTAL ARROWS --> 
 	<customView name="config,basic,grid">  
 		<image name="Chevron gauche, Chevron droite">
@@ -21,7 +22,7 @@
 	</customView>
 
 	<!-- HIDING Emulators title --> 
-	<customView name="config,basid,grid">  
+	<customView name="config,basic,grid">  
 		<text name="consoleTitle">
 			<visible>false</visible>
 		</text>

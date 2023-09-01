@@ -3,9 +3,32 @@
     <formatVersion>7</formatVersion>
 
  	<view name="config,basic,detailed,video,gamecarousel,grid">
+
+		<text name="UserName" extra="true">
+			<pos>0.075 0.035</pos>
+			<color>FFFFFF</color>
+			<alignment>left</alignment>
+			<origin>0 0</origin>
+			<fontPath>./../fonts/Bank Gothic Medium.otf</fontPath>
+			<fontSize>0.028</fontSize>
+			<text>${userName}</text>	
+			<zIndex>999</zIndex>	
+		</text>
+		
+		<text name="UserMessage" extra="true">
+			<pos>0.090 0.067</pos>
+			<color>FFFFFF</color>
+			<alignment>left</alignment>
+			<origin>0 0</origin>
+			<fontPath>./../fonts/Bank Gothic Medium.otf</fontPath>
+			<fontSize>0.015</fontSize>
+			<text>${userMessage}</text>	
+			<zIndex>999</zIndex>	
+		</text>
+
 		<!-- Help buttons -->
 		<helpsystem name="help">
-			<pos>0.01 0.942</pos>
+			<pos>0.445 0.942</pos>
 			<size>1 0.01</size>
 			<origin>0 0.5</origin>
 			<fontPath>./../fonts/Saira_ExtraCondensed-Regular.ttf</fontPath>
@@ -20,18 +43,6 @@
 				<origin>0 0</origin>
 				<size>1 1</size>
 			<linearSmooth>true</linearSmooth>	  
-		</image>
-
-		<image name="black screen" extra="true" ifSubset="animatedgamelistopenings:yes">
-			<path>./../assets/white.png</path>
-			<color>000000ff</color>
-			<tile>true</tile>
-			<opacity>1</opacity>
-			<linearSmooth>false</linearSmooth>	  
-			<storyboard>
-				<animation property="opacity" from="1" to="0" begin="0" duration="1500" mode="Linear"/>
-				</storyboard>
-			<zIndex>200</zIndex>
 		</image>
 
 		<image name="Controller, Controller1, Controller2">

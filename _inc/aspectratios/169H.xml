@@ -19,7 +19,7 @@
 			<fontPath>./../fonts/Bank Gothic Medium.otf</fontPath>
 			<fontSize>0.028</fontSize>
 			<text>${userName}</text>	
-			<zIndex>37</zIndex>	
+			<zIndex>999</zIndex>	
 		</text>
 		
 		<text name="UserMessage" extra="true">
@@ -30,7 +30,7 @@
 			<fontPath>./../fonts/Bank Gothic Medium.otf</fontPath>
 			<fontSize>0.015</fontSize>
 			<text>${userMessage}</text>	
-			<zIndex>37</zIndex>	
+			<zIndex>999</zIndex>	
 		</text>
 
 		<image name="logo">
