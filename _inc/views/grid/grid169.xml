@@ -27,12 +27,12 @@
 		</image>
 
 		<image name="Chevron Haut">
-			<color>${systemColorYellow}</color>
+			<color>${systemColorBlue}</color>
 			<pos>0.705 0.2</pos>
 		</image>
 
 		<image name="Chevron Bas">
-		<color>${systemColorYellow}</color>
+		<color>${systemColorBlue}</color>
 		<pos>0.705 0.8</pos>
 		</image>
 
@@ -126,7 +126,7 @@
 			<pos>0.755 0.770</pos>
 			<size>0.03 0.03</size>
 			<origin>0.5 0.5</origin>
-			<color>${systemColorYellow}</color>
+			<color>${systemColorBlue}</color>
 			<unfilledColor>${systemColorWhite}</unfilledColor>
 			<zIndex>41</zIndex>
 			<storyboard event="activate">

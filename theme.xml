@@ -8,13 +8,12 @@
 -->
 <theme>
  	<formatVersion>7</formatVersion>
-  
+	<include>./_inc/variables.xml</include>
+	<include>./systems/$system/theme.xml</include>
+	<include>./_inc/views/common.xml</include>
 	<include>./profile.xml</include>
-  	<include>./_inc/variables.xml</include>
 	<include>./_inc/views/menu.xml</include>
 	<include>./_inc/views/screen.xml</include>
 	<include>./_inc/views/system.xml</include>
-	<include>./_inc/views/common.xml</include>
-	<include>./systems/$system/theme.xml</include>
 	<include>./_inc/options.xml</include>
 </theme>

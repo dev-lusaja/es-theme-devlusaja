@@ -10,7 +10,7 @@
 		</splash>
 		
 		<image name="background">
-			<path>./_inc/backgrounds/169/splash.jpg</path>
+			<path>./_inc/backgrounds/169/splash.png</path>
 		</image>
 		
 		<text name="label, Version, Platforms, Loading, Warning, author" extra="true">

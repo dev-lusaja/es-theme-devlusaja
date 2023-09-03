@@ -2,42 +2,20 @@
 <theme>
     <formatVersion>7</formatVersion>
 
- 	<view name="config,basic,detailed,video,gamecarousel,grid">
-
-		<text name="UserName" extra="true">
-			<pos>0.075 0.035</pos>
-			<color>FFFFFF</color>
-			<alignment>left</alignment>
-			<origin>0 0</origin>
-			<fontPath>./../fonts/Bank Gothic Medium.otf</fontPath>
-			<fontSize>0.028</fontSize>
-			<text>${userName}</text>	
-			<zIndex>999</zIndex>	
-		</text>
-		
-		<text name="UserMessage" extra="true">
-			<pos>0.090 0.067</pos>
-			<color>FFFFFF</color>
-			<alignment>left</alignment>
-			<origin>0 0</origin>
-			<fontPath>./../fonts/Bank Gothic Medium.otf</fontPath>
-			<fontSize>0.015</fontSize>
-			<text>${userMessage}</text>	
-			<zIndex>999</zIndex>	
-		</text>
-
-		<!-- Help buttons -->
+	<view name="config,basic,detailed,video,gamecarousel,grid,system">
 		<helpsystem name="help">
-			<pos>0.445 0.942</pos>
+			<pos>0.5 0.5</pos>
 			<size>1 0.01</size>
-			<origin>0 0.5</origin>
+			<origin>0 0</origin>
 			<fontPath>./../fonts/Saira_ExtraCondensed-Regular.ttf</fontPath>
-			<fontSize>0.032</fontSize>
-			<fontSize tinyScreen="true">0.036</fontSize>
-			<textColor>${systemColorWhite}</textColor>
-			<iconColor>${systemColorWhite}</iconColor>
+			<fontSize>0.025</fontSize>
+			<alignment>right</alignment>
+			<textColor>${systemColorGray}</textColor>
+			<iconColor>${systemColorGray}</iconColor>
 		</helpsystem>
+	</view>
 
+ 	<view name="config,basic,detailed,video,gamecarousel,grid">
 		<image name="background, background2, black screen">
 			<pos>0 0</pos>
 				<origin>0 0</origin>
@@ -184,6 +162,19 @@
 			<glowColor>00000016</glowColor>
 			<glowSize>2</glowSize>
 		</datetime>
+
+        <!-- Console logo text -->
+		<text name="logoText">
+			<pos>0.35 0.35</pos>
+			<origin>0 0</origin>
+			<alignment>left</alignment>
+			<color>${systemColorWhite}</color>
+			<forceUppercase>1</forceUppercase>
+			<fontPath>./../fonts/Bank Gothic Medium.otf</fontPath>
+			<fontSize>0.023</fontSize>
+			<lineSpacing>1.15</lineSpacing>
+			<zIndex>999</zIndex>
+		</text>
     </view>
 
 </theme>

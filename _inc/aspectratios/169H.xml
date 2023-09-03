@@ -12,25 +12,27 @@
 	<view name="system">
 
 		<text name="UserName" extra="true">
-			<pos>0.075 0.035</pos>
-			<color>FFFFFF</color>
+			<pos>0.075 0.085</pos>
+			<color>${systemColorGray}</color>
 			<alignment>left</alignment>
 			<origin>0 0</origin>
 			<fontPath>./../fonts/Bank Gothic Medium.otf</fontPath>
 			<fontSize>0.028</fontSize>
-			<text>${userName}</text>	
+			<text>${userName}</text>
+			<visible>false</visible>
 			<zIndex>999</zIndex>	
 		</text>
 		
 		<text name="UserMessage" extra="true">
 			<pos>0.090 0.067</pos>
-			<color>FFFFFF</color>
+			<color>${systemColorGray}</color>
 			<alignment>left</alignment>
 			<origin>0 0</origin>
 			<fontPath>./../fonts/Bank Gothic Medium.otf</fontPath>
 			<fontSize>0.015</fontSize>
 			<text>${userMessage}</text>	
-			<zIndex>999</zIndex>	
+			<zIndex>999</zIndex>
+			<visible>false</visible>
 		</text>
 
 		<image name="logo">
@@ -40,6 +42,9 @@
 			<path>./../wheel/${system.theme}.png</path>
 			<path ifSubset="artworkregion:US">./../wheel/US/${system.theme}.png</path>
 			<path ifSubset="neogeostyle:mvs">./../wheel/special/${system.theme}.png</path>
+			<pos>0.5 0.5</pos>
+			<origin>0 0</origin>
+			<zIndex>999</zIndex>
 		</image>
 
 		<carousel name="systemcarousel">
@@ -207,7 +212,7 @@
 			<pos>0.5 0.3</pos>
 			<origin>0.5 0.5</origin>
 			<size>0.025 0</size>
-			<path>./../assets/YellowArrowD.png</path>
+			<path>./../assets/BlueArrowD.png</path>
 			<linearSmooth>false</linearSmooth>                                                       
 			<opacity>0.67</opacity>
 			<zIndex>36</zIndex>
@@ -274,8 +279,8 @@
 
 	<!-- Subset options for Selected logo Color -->
 	<subset name="logocolor" displayName="${LogoColor}">
-		<include name="yellow" displayName="${yellow}">./../systemview/colors/yellowH.xml</include>
 		<include name="blue" displayName="${blue}">./../systemview/colors/blueH.xml</include>
+		<include name="yellow" displayName="${yellow}">./../systemview/colors/yellowH.xml</include>
 		<include name="white" displayName="${white}">./../systemview/colors/whiteH.xml</include>		
 		<include name="red" displayName="${red}">./../systemview/colors/redH.xml</include>
 		<include name="purple" displayName="${purple}">./../systemview/colors/purpleH.xml</include>

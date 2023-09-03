@@ -45,8 +45,8 @@
 		<systemColorGrayGameTitle>424242</systemColorGrayGameTitle>
 		<systemColorYellow>E5CF00</systemColorYellow>
 		<systemColorPurple>2C001A</systemColorPurple>
-		<systemColorGray>A7A7A7</systemColorGray>
+		<systemColorGray>454545</systemColorGray>
 		<systemColorBlack>000000</systemColorBlack>
-		<systemColorBlue>0088BB</systemColorBlue>
+		<systemColorBlue>00E4FB</systemColorBlue>
 	</variables> 
 </theme>   

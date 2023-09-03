@@ -9,7 +9,7 @@
 		</image>
 
 		<text name="logoText">
-		<size>0.98 0.126</size>
+		<size>0.1 0.1</size>
 		<fontPath>./../../fonts/SairaCondensed-Bold.ttf</fontPath>
 		<forceUppercase>1</forceUppercase>
 		<fontSize>0.1</fontSize>
@@ -28,7 +28,7 @@
 
 		<!--Down arrow -->	
 		<image name="Chevron Bas">
-			<color>E5CF00</color>
+			<color>${systemColorBlue}</color>
 			<pos>0.5 0.872</pos>
 		</image>
 			

@@ -7,16 +7,8 @@
 			<path>./../music/ArcadePlanetBGMusic.mp3</path>
 		</sound>
 
-		<!-- Help buttons -->
 		<helpsystem name="help">
-			<pos>0.445 0.96</pos>
-			<size>1 0.01</size>
-			<origin>0 0</origin>
-			<fontPath>./../fonts/Saira_ExtraCondensed-Regular.ttf</fontPath>
-			<fontSize>0.032</fontSize>
-			<fontSize tinyScreen="true">0.026</fontSize>
-			<textColor>${systemColorWhite}</textColor>
-			<iconColor>${systemColorWhite}</iconColor>
+			<pos>0.567 0.96</pos>
 		</helpsystem>
 
 		<carousel name="systemcarousel">
@@ -25,5 +17,4 @@
 			<systemInfoDelay>0</systemInfoDelay>
 		</carousel>	
   	</view>
-
 </theme>

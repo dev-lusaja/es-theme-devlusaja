@@ -5,17 +5,17 @@
 	<view name="screen">
 		<!-- Batery and Network indicator -->
 		<batteryIndicator name="batteryIndicator">
-			<color>${systemColorWhite}</color>
-			<pos>0.800 0.040</pos>
+			<color>${systemColorGray}</color>
+			<pos>0.800 0.035</pos>
 			<origin>0 0</origin>
-			<size>0.09 0.048</size>
+			<size>0.09 0.028</size>
 		</batteryIndicator>
 
 		<text name="clock">
-			<color>${systemColorWhite}</color>
+			<color>${systemColorGray}</color>
 			<fontPath>./../fonts/SairaCondensed-Light.ttf</fontPath>
-			<fontSize>0.045</fontSize>
-			<pos>0.900 0.035</pos>
+			<fontSize>0.025</fontSize>
+			<pos>0.900 0.02</pos>
 			<origin>0 0</origin>
 			<size>0.09 0.058</size>
 			<alignment>left</alignment>
@@ -29,9 +29,9 @@
 			<itemSpacing>0.003</itemSpacing>
 			<imagePath>./../icons/gamepad.svg</imagePath>
 			<gunPath>./../icons/gun.svg</gunPath>
-			<color>${systemColorWhite}</color>
-			<activityColor>${systemColorYellow}</activityColor>
-			<hotkeyColor>FFA0A0C0</hotkeyColor>
+			<color>${systemColorGray}</color>
+			<activityColor>${systemColorBlue}</activityColor>
+			<hotkeyColor>${systemColorBlue}</hotkeyColor>
 		</controllerActivity>
   	</view>
 </theme>

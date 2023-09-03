@@ -18,16 +18,6 @@
             <zIndex>100</zIndex>
         </video>
         
-        <image name="Chevron Bas">
-        <opacity>0.7</opacity>
-        <pos>0.51 0.7</pos>
-        </image>	
-        
-        <image name="Chevron Haut">
-            <opacity>0.7</opacity>
-            <pos>0.51 0.24</pos>
-        </image>
-        
         <gamecarousel name="gamecarousel">
             <type>horizontal</type>
             <logoAlignment>left</logoAlignment>
@@ -38,8 +28,10 @@
             <size>1.5 0.75</size>
             <logoScale>1.5</logoScale>
             <logoSize>0.15 0.15</logoSize>
-			<logoSize if="{system.theme} == 'switch' || {system.theme} == 'wii' || {system.theme} == 'wiiu' || {system.theme} == 'gc' || {system.theme} == 'ps2' || {system.theme} == 'ps3' || {system.theme} == 'psp' || {system.theme} == 'xbox' || {system.theme} == 'xbox360'">0.23 0.23</logoSize>
-            <maxLogoCount>10</maxLogoCount>
+			<logoSize if="{system.theme} == 'nes' || {system.theme} == 'switch' || {system.theme} == 'wii' || {system.theme} == 'wiiu' || {system.theme} == 'gc' || {system.theme} == 'ps2' || {system.theme} == 'ps3' || {system.theme} == 'psp' || {system.theme} == 'xbox' || {system.theme} == 'xbox360' || {system.theme} == 'fbneo' || {system.theme} == 'mame' || {system.theme} == 'teknoparrot' || {system.theme} == 'windows' || {system.theme} == 'megadrive' || {system.theme} == 'saturn' || {system.theme} == 'naomi' || {system.theme} == 'triforce' || {system.theme} == 'zxspectrum' || {system.theme} == 'neogeo' || {system.theme} == 'pc'">0.25 0.25</logoSize>
+            <logoSize if="{system.theme} == 'gb' || {system.theme} == 'gbc' || {system.theme} == 'gba' || {system.theme} == 'nds' || {system.theme} == '3ds' || {system.theme} == 'dreamcast' || {system.theme} == 'psx'">0.23 0.23</logoSize>
+			<logoSize if="{system.theme} == 'snes' || {system.theme} == 'n64'">0.18 0.18</logoSize>
+			<maxLogoCount>10</maxLogoCount>
             <imageSource>thumbnail</imageSource>
             <minLogoOpacity>0.8</minLogoOpacity>
             <zIndex>10</zIndex>
@@ -86,15 +78,6 @@
             <alignment>left</alignment>
         </datetime>
         
-        <rating name="md_rating">
-            <pos>0.444 0.703703</pos>
-            <size>0.08 0.025</size>
-            <origin>0.5 0.5</origin>
-            <color>E0A020</color>
-            <unfilledColor>808080</unfilledColor>
-            <zIndex>41</zIndex>	  
-        </rating>	
-        
         <image name="md_thumbnail">
 			<visible>false</visible>
 		</image>
@@ -124,7 +107,7 @@
 			<pos>0.15 0.53</pos>
 			<size>0.03 0.03</size>
 			<origin>0 0</origin>
-			<color>${systemColorYellow}</color>
+			<color>${systemColorBlue}</color>
 			<unfilledColor>${systemColorWhite}</unfilledColor>
 			<zIndex>41</zIndex>
 		</rating>
@@ -133,7 +116,7 @@
 			<pos>0.08 0.57</pos>
             <origin>0 0</origin>
 			<fontPath>./../../fonts/SairaCondensed-Medium.ttf</fontPath>
-			<size>0.155 0.100</size>
+			<size>0.155 0.200</size>
 			<glowSize>0</glowSize>
 			<lineSpacing>1</lineSpacing>
 			<glowOffset>0</glowOffset>
@@ -141,10 +124,7 @@
         
 		<!-- Help buttons -->
 		<helpsystem name="help">
-			<pos>0.2 0.955</pos>
-			<origin>0 0</origin>
-			<fontPath>./../fonts/Saira_ExtraCondensed-Regular.ttf</fontPath>
-			<fontSize>0.032</fontSize>
+			<pos>0.24 0.96</pos>
 		</helpsystem>
 
         <text name="md_genre">
@@ -239,9 +219,17 @@
             <visible>false</visible>
         </image>
 
-		<controllerActivity name="controllerActivity">
-            <visible>false</visible>
-      </controllerActivity>
+		<image name="Chevron Bas">
+			<visibility>false</visibility>
+        </image>	
+        
+        <image name="Chevron Haut">
+			<visibility>false</visibility>
+        </image>
+
+		<image name="Chevron Bas, Chevron Haut, Chevron gauche, Chevron droite">
+			<visible>false</visible>
+		</image>
 
     </view>
 
