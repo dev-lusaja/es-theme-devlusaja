@@ -60,7 +60,7 @@
 			<size>0.7 0.057</size>
             <origin>0 0</origin>
             <forceUppercase>1</forceUppercase>
-			<glowColor>00000080</glowColor>
+			<glowColor>${systemColorGray}</glowColor>
 			<glowSize>2</glowSize>
 			<lineSpacing>1.15</lineSpacing>
 			<glowOffset>1</glowOffset>

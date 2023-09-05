@@ -5,74 +5,51 @@
 
 	<view name="basic">
 		<image name="background">
-		<path>./../../backgrounds/169/bgbasic.jpg</path>
-		</image>
-
-		<text name="logoText">
-		<size>0.1 0.1</size>
-		<fontPath>./../../fonts/SairaCondensed-Bold.ttf</fontPath>
-		<forceUppercase>1</forceUppercase>
-		<fontSize>0.1</fontSize>
-		<color>FFFFFF</color>
-		</text>
-		
-		<image name="logo">
-		<maxSize>0.25 0.18</maxSize>
-		<y ifSubset="animatedgamelistopenings:no">0.1</y>
-		<storyboard ifSubset="animatedgamelistopenings:yes">
-			<animation property="scale" from="0" to="3" begin="" duration="300" mode="Linear"/>
-			<animation property="scale" from="3" to="1" begin="620" duration="175" mode="Linear"/>
-			<animation property="y" from="0.5" to="0.1" begin="620" duration="175" mode="Linear"/>
-		</storyboard>
-		</image>
-
-		<!--Down arrow -->	
-		<image name="Chevron Bas">
-			<color>${systemColorBlue}</color>
-			<pos>0.5 0.872</pos>
+		<path>./../../backgrounds/169/bgbasic.png</path>
 		</image>
 			
+		<!--Up arrow -->
+		<image name="Chevron Haut">
+			<color>${systemColorBlue}</color>
+			<pos>0.5 0.210</pos>
+		</image>
+
 		<textlist name="gamelist" ifSubset="selectorstyle:bar">
 			<scrollSound>./../../sounds/scroll.wav</scrollSound>
 			<selectorImagePath>./../../assets/bar.png</selectorImagePath>
-			<selectorColor ifSubset="selectorcolor:purple">2C001A</selectorColor>
-			<selectorColor ifSubset="selectorcolor:blue">88D8F0</selectorColor>
-			<selectorColor ifSubset="selectorcolor:red">B21302ff</selectorColor>
-			<selectorColor ifSubset="selectorcolor:black">000000ff</selectorColor>
-			<selectorColor ifSubset="selectorcolor:grey">707070ff</selectorColor>
-			<selectorColor ifSubset="selectorcolor:yellow">CCBB00ff</selectorColor>
-			<selectedColor ifSubset="textlistcolor:purple">2C001A</selectedColor>
-			<selectedColor ifSubset="textlistcolor:blue">88D8F0</selectedColor>
-			<selectedColor ifSubset="textlistcolor:red">A00000</selectedColor>
-			<selectedColor ifSubset="textlistcolor:yellow">EEEE00</selectedColor>
-			<selectedColor ifSubset="textlistcolor:white">FFFFFF</selectedColor>
-			<primaryColor ifSubset="textlistcolor:purple">2C001A</primaryColor>
-			<primaryColor ifSubset="textlistcolor:white">777277</primaryColor>
-			<primaryColor ifSubset="textlistcolor:yellow">767670</primaryColor>
-			<primaryColor ifSubset="textlistcolor:red">777070</primaryColor>
-			<primaryColor ifSubset="textlistcolor:blue">727277</primaryColor>
-			<secondaryColor>7a6161</secondaryColor>
+			<selectorColor>${systemColorRed}</selectorColor>
+			<primaryColor>${systemColorWhite}</primaryColor>
+			<secondaryColor>${systemColorGray}</secondaryColor>
 			<fontSize>0.034</fontSize>
-			<fontPath>./../../fonts/Saira_SemiCondensed-Medium.ttf</fontPath>
+			<fontPath>./../../fonts/Saira_SemiCondensed-Bold.ttf</fontPath>
 			<forceUppercase>1</forceUppercase>
-			<pos>0.25 0.240</pos>
-			<size>0.5 0.62</size>
-			<glowColor>000000aa</glowColor>
+			<pos>0.25 0.255</pos>
+			<size>0.5 0.52</size>
+			<glowColor>${systemColorGray}</glowColor>
 			<glowSize>1.5</glowSize>
 			<glowOffset>1.5 1.5</glowOffset>
 			<lines>11</lines>
 			<alignment>center</alignment>
 		</textlist>
 
-		<!--Up arrow -->
-		<image name="Chevron Haut">
-			<color>E5CF00</color>
-			<pos>0.5 0.210</pos>
+		<!--Down arrow -->	
+		<image name="Chevron Bas">
+			<color>${systemColorBlue}</color>
+			<pos>0.5 0.825</pos>
 		</image>
-			
+		
+		<!-- Help buttons -->
+		<helpsystem name="help">
+			<pos>0.24 0.96</pos>
+		</helpsystem>
+
 		<image name="es_player">
 			<visible>false</visible>
 		</image>
+
+		<text name="logoText">
+			<visible>false</visible>
+		</text>
 	</view>
     
 </theme>   
