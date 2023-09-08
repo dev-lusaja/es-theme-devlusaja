@@ -279,12 +279,7 @@
 
 	<!-- Subset options for Selected logo Color -->
 	<subset name="logocolor" displayName="${LogoColor}">
-		<include name="blue" displayName="${blue}">./../systemview/colors/blueH.xml</include>
-		<include name="yellow" displayName="${yellow}">./../systemview/colors/yellowH.xml</include>
-		<include name="white" displayName="${white}">./../systemview/colors/whiteH.xml</include>		
-		<include name="red" displayName="${red}">./../systemview/colors/redH.xml</include>
-		<include name="purple" displayName="${purple}">./../systemview/colors/purpleH.xml</include>
-		<include name="green" displayName="${green}">./../systemview/colors/greenH.xml</include>		
+		<include name="blue" displayName="${blue}">./../systemview/colors/blueH.xml</include>		
     </subset>
 	
 </theme>

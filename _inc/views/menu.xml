@@ -3,32 +3,34 @@
  	<formatVersion>7</formatVersion>
 
 	<view name="menu">
+
 		<menuText name="menutitle">
 			<fontPath>./../fonts/SairaCondensed-Bold.ttf</fontPath>
 			<fontSize>0.046</fontSize>
-			<color>${systemColorWhite}</color>
+			<color>${systemColorGray}</color>
 		</menuText>
 		
 		<menuText name="menufooter">
-			<fontPath>./../fonts/SairaCondensed-Light.ttf</fontPath>
-			<fontSize>0.032</fontSize>
-			<color>${systemColorWhite}</color>
+			<fontPath>./_inc/fonts/Saira_SemiCondensed-Bold.ttf</fontPath>
+			<fontSize>0.022</fontSize>
+			<color>${systemColorGray}</color>
 		</menuText>
 		
 		<menuText name="menutext">
 			<fontPath>./../fonts/SairaCondensed-Regular.ttf</fontPath>
 			<fontSize>0.032</fontSize>
-			<color>969696</color>
-			<separatorColor>323232FF</separatorColor>
-			<selectorColor>2C001A</selectorColor>
-			<selectorColorEnd>2C001A</selectorColorEnd>
-			<selectedColor>FFEEFF</selectedColor>
+			<color>${systemColorGray}</color>
+			<separatorColor>${systemColorWhite}</separatorColor>
+			<selectorColor>${systemColorRed}</selectorColor>
+			<selectorColorEnd>${systemColorRed}</selectorColorEnd>
+			<selectedColor>${systemColorWhite}</selectedColor>
 			<selectorOffsetY>0.01</selectorOffsetY>
 			<selectorGradientType>vertical</selectorGradientType>
+			<backgroundColor>${systemColorWhite}</backgroundColor>
 		</menuText>
 		
 		<menuTextSmall name="menutextsmall">
-			<fontPath>./../fonts/SairaCondensed-Regular.ttf</fontPath>
+			<fontPath>./../fonts/SairaCondensed-Bold.ttf</fontPath>
 			<fontSize>0.026</fontSize>
 			<color>767296</color>
 		</menuTextSmall>
@@ -36,15 +38,16 @@
 		<menuGroup name="menugroup">
 			<fontPath>./../fonts/SairaCondensed-Medium.ttf</fontPath>
 			<fontSize>0.036</fontSize>
-			<color>767296</color>
-			<separatorColor>BD4747</separatorColor>    
-			<backgroundColor>70202020</backgroundColor>
+			<color>${systemColorGray}</color>
+			<separatorColor>${systemColorWhite}</separatorColor>    
+			<backgroundColor>${systemColorWhite}</backgroundColor>
 			<lineSpacing>2.5</lineSpacing>
 		</menuGroup>
 		
 		<menuBackground name="menubg">
-			<color>242424ee</color>
+			<color>${systemColorWhite}</color>
 			<cornerSize>32 32</cornerSize>
+			<backgroundColor>${systemColorWhite}</backgroundColor>
 			<path>./../menuicons/frame.png</path>
 		</menuBackground>
 		
@@ -75,5 +78,17 @@
 			<path>./../menuicons/button.png</path>
 			<filledPath>./../menuicons/button_filled.png</filledPath>
 		</menuButton>
+
+
+		<!-- Help buttons -->
+		<helpsystem name="help">
+			<pos>0.24 0.96</pos>
+			<origin>0 0</origin>
+			<fontPath>./../fonts/Saira_ExtraCondensed-Regular.ttf</fontPath>
+			<fontSize>0.025</fontSize>
+			<alignment>right</alignment>
+			<textColor>${systemColorWhite}</textColor>
+			<iconColor>${systemColorWhite}</iconColor>
+		</helpsystem>
 	</view>
 </theme>
