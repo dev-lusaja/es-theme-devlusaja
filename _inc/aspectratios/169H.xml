@@ -18,9 +18,9 @@
 			<origin>0 0</origin>
 			<fontPath>./../fonts/Bank Gothic Medium.otf</fontPath>
 			<fontSize>0.028</fontSize>
-			<text>${userName}</text>
+			<text>${system.theme}</text>
+			<zIndex>999</zIndex>
 			<visible>false</visible>
-			<zIndex>999</zIndex>	
 		</text>
 		
 		<text name="UserMessage" extra="true">
@@ -208,7 +208,7 @@
 			</storyboard>
 		</image>
 
-		<image name="Yellow Arrow" extra="static">
+		<image name="BlueArrow" extra="static">
 			<pos>0.5 0.3</pos>
 			<origin>0.5 0.5</origin>
 			<size>0.025 0</size>

@@ -48,7 +48,6 @@
 			<color>${systemColorWhite}</color>
 			<cornerSize>32 32</cornerSize>
 			<backgroundColor>${systemColorWhite}</backgroundColor>
-			<path>./../menuicons/frame.png</path>
 		</menuBackground>
 		
 		<menuIcons name="menuicons">
@@ -78,17 +77,5 @@
 			<path>./../menuicons/button.png</path>
 			<filledPath>./../menuicons/button_filled.png</filledPath>
 		</menuButton>
-
-
-		<!-- Help buttons -->
-		<helpsystem name="help">
-			<pos>0.24 0.96</pos>
-			<origin>0 0</origin>
-			<fontPath>./../fonts/Saira_ExtraCondensed-Regular.ttf</fontPath>
-			<fontSize>0.025</fontSize>
-			<alignment>right</alignment>
-			<textColor>${systemColorWhite}</textColor>
-			<iconColor>${systemColorWhite}</iconColor>
-		</helpsystem>
 	</view>
 </theme>

@@ -9,6 +9,8 @@
 
 		<helpsystem name="help">
 			<pos>0.567 0.96</pos>
+			<textColor>${systemColorGray}</textColor>
+			<iconColor>${systemColorGray}</iconColor>
 		</helpsystem>
 
 		<carousel name="systemcarousel">
